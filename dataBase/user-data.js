@@ -10,5 +10,20 @@
 //   };
 // createdAt: Date;
 // updatedAt: Date;
-let users = [];
+let users = [
+  {
+    name: "zula",
+    password: "1234",
+    email: "test",
+    address: {
+      street: "dasd",
+      city: "dasd",
+      zip: "aaaaa",
+    },
+    _id: "1",
+    role: "customer",
+    createdAt: "date",
+    updatedAt: "date",
+  },
+];
 module.exports = { users };
